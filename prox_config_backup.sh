@@ -23,7 +23,7 @@ set -e
 # default value can be overridden by setting environment variable before running prox_config_backup.sh
 # example: export BACK_DIR="/mnt/pve/media/backup
 # Bei nächster Zeile den mnt-Pfad anpassen auf das NFS-Share:
-_bdir=${BACK_DIR:-/mnt/pve/ProxmoxBackup/config}
+_bdir=${BACK_DIR:-/mnt/pve/ProxmoxBackup}
 
 # number of backups to keep before overriding the oldest one
 MAX_BACKUPS=5
